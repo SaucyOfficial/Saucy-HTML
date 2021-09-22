@@ -397,17 +397,17 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
 	
 	@media screen and (min-device-width: 0px) and (max-device-width: 768px) {
 	  .subtosaucy {
-		margin: 0 6.5%;
+		margin: 0 8.5%;
 	  }
 	}
 	@media screen and (min-device-width: 769px) and (max-device-width: 1500px) {
 	  .subtosaucy {
-		margin: 0 5.5%;
+		margin: 0 7.5%;
 	  }
 	}
 	@media screen and (min-device-width: 1501px) and (max-device-width: 3000px) {
 	  .subtosaucy {
-		margin: 0 3.0%;
+		margin: 0 5.0%;
 	  }
 	}
 	  
