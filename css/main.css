@@ -121,6 +121,8 @@ nav {
 	list-style: none;
 
 }
+
+
 nav h3 {
 	padding: 0 60px 0 30px;
 	margin: 20px 0 30px;
@@ -131,8 +133,12 @@ nav h3 {
 nav.open {
 	transform: translateX(0);
 }
+
+#saucytext {
+	padding-left: 25px;
+}
 .nav-level {
-	padding-top: 100px;
+	padding-top: 40px;
 	position: absolute;
 	height: 100%;
 	width: 100%;
