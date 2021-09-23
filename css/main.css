@@ -155,12 +155,11 @@ nav.open {
 	transition: 0.3s;
 	transform: translate3d(100%, 0, 0);
 	top: 0;
-	border: 1px solid #fff;
+	border: 1px solid #2a2a2a;
+	background:#000;
 	border-top: none;
 	opacity: 0;
 	pointer-events: none;
-	background-image : url("https://media2.giphy.com/media/KGSkQ3OkIyrLE70Kej/giphy.gif?cid=ecf05e47l2nrxjb2s04n2028z7t08wrdp2ctymczepzyewd1&rid=giphy.gif&ct=g");
-
 }
 .submenu.open {
 	transform: translate3d(40px, 0, 0);
