@@ -216,7 +216,7 @@ border-image-repeat:initial;
 	top: 50%;
   }
   
-  nav#ddfullscreenmenu ul.submenu{ /* style for non "first page" ULs */
+  nav#ddfullscreenmenu ul.submenu2{ /* style for non "first page" ULs */
 	position: absolute;
 	top: 0;
 	left: 0;
