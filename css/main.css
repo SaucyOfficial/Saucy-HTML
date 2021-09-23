@@ -314,7 +314,7 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
   
 	
   
-	#subscriptions {
+#subscriptions {
 	  appearance: none;
 	  -webkit-appearance: none;
 	  -moz-appearance: none;
@@ -323,9 +323,9 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
 	  appearance: none;
 	  outline: 0;
 	  box-shadow: none;
-	  background-color: #000;
+background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-shopping-cart-interface-kiranshastry-lineal-kiranshastry.png);
 	  background-repeat: no-repeat;
-	  background-size: 100% 200%;
+	  background-size: 50% 100%;
 	  color: #fff;
 	  position: relative;
 	  margin: 0 auto;
@@ -334,6 +334,7 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
 	  outline-style: none;
 	  border-radius: 5px;
 	}
+
 	#subscriptions {
 	  width: 70%;
 	  height: 100%;
