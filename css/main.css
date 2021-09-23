@@ -281,10 +281,47 @@ transition-property: opacity, filter, translate3d;
 	margin: 0;
 	position: fixed;
   top: 0;
-	right: 7%;
 	z-index: 10;
 	overflow: visible;
 }
+
+
+@media screen and (min-device-width: 0px) and (max-device-width: 200px) {
+
+	.hamburger {
+		
+		right: 10%;
+	
+	}
+}
+	
+@media screen and (min-device-width: 201px) and (max-device-width: 700) {
+
+	.hamburger {
+		
+		right: 7%;
+	
+	}
+}
+
+@media screen and (min-device-width: 701px) and (max-device-width: 2000px) {
+
+.hamburger {
+	
+	right: 4%;
+
+}
+}
+
+@media screen and (min-device-width: 2001px) and (max-device-width: 8000px) {
+
+	.hamburger {
+		
+		right: 2%;
+	
+	}
+	}
+
 .hamburger:hover {
 	opacity: 0.7;
 }
