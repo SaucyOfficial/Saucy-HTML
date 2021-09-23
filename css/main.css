@@ -111,11 +111,25 @@ position: absolute;
 font-size: 8px;
 /* change font size to change label dimensions. Leave width/height below alone */
 top: 0.8%;
-left: 2.2%;
+left: 1.0%;
 position: fixed;
 cursor: pointer;
 }
 
+
+@media screen and (min-device-width: 0px) and (max-device-width: 768px) {
+	 div#navtoggler{  /* Sample burger icon to toggle menu state */
+z-index: 110;
+display: block;
+position: absolute;
+font-size: 8px;
+/* change font size to change label dimensions. Leave width/height below alone */
+top: 1.2%;
+left: 2.2%;
+position: fixed;
+cursor: pointer;
+}
+	}
 
 
 nav#ddfullscreenmenu{ /* Full screen nav menu */
@@ -144,43 +158,6 @@ border-image-repeat:initial;
 }
 
 
-
-div#navtoggler{  /* Sample burger icon to toggle menu state */
-	z-index: 110;
-	display: block;
-	position: absolute;
-	font-size: 8px;
-	/* change font size to change label dimensions. Leave width/height below alone */
-	top: 0.8%;
-	left: 2.2%;
-	position: fixed;
-	cursor: pointer;
-  }
-  
-
-  
-  nav#ddfullscreenmenu{ /* Full screen nav menu */
-	width: 100%;
-	height: 100%;
-	visibility: hidden;
-	-webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
-	-webkit-transform: scale(0.9);  /* initially scale down nav size */
-	transform: scale(0.9);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	position: fixed;
-	top: 0;
-	left: 0;
-	  z-index: 100;
-	opacity: 0;
-	overflow: hidden;
-	content-visibility: auto;
-
-   
-  }
   
   nav#ddfullscreenmenu.openmenu{ /* open menu class */
 	  visibility: visible;
@@ -314,7 +291,7 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
   
 	
   
-	#subscriptions {
+#subscriptions {
 	  appearance: none;
 	  -webkit-appearance: none;
 	  -moz-appearance: none;
@@ -323,9 +300,9 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
 	  appearance: none;
 	  outline: 0;
 	  box-shadow: none;
-	  background-color: #000;
+background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-shopping-cart-interface-kiranshastry-lineal-kiranshastry.png);
 	  background-repeat: no-repeat;
-	  background-size: 100% 200%;
+	  background-size: 50% 100%;
 	  color: #fff;
 	  position: relative;
 	  margin: 0 auto;
@@ -334,6 +311,7 @@ div#navtoggler{  /* Sample burger icon to toggle menu state */
 	  outline-style: none;
 	  border-radius: 5px;
 	}
+
 	#subscriptions {
 	  width: 70%;
 	  height: 100%;
