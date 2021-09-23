@@ -88,6 +88,8 @@ html {
 
 a {
 	text-decoration: none;
+	list-style: none;
+
 }
 
 
@@ -107,14 +109,6 @@ a {
 	outline: none;
 }
 
-#main {
-	transition: 0.5s;
-	position: relative;
-	transform: translateX(0);
-}
-#main.nav-open {
-	transform: translate3d(300px, 0, 0);
-}
 nav {
 	width: 300px;
 	color: #fff;
@@ -124,6 +118,8 @@ nav {
 	position: fixed;
 	transition: 0.5s;
 	transform: translateX(300px);
+	list-style: none;
+
 }
 nav h3 {
 	padding: 0 60px 0 30px;
@@ -146,12 +142,14 @@ nav.open {
   top: 0;
 	left: 0;
 	z-index: 1;
+
 }
 .nav-overlay:before {
 	width: 100%;
 	height: 100%;
 	background: transparent;
 	opacity: 1;
+
 }
 .nav-overlay:after {
 	background: rgba(0, 0, 0, 0.3);
@@ -182,6 +180,8 @@ nav.open .nav-overlay:after {
 ul {
 	padding: 0;
 	margin: 0;
+	list-style: none;
+
 }
 li.side {
 	list-style: none;
@@ -190,6 +190,7 @@ li.side {
 	float: none !important;
 	display: block !important;
 	transition: 0.5s !important;
+	line-height: 3.5;
 }
 ul li.side a {
 	color: #fff;
@@ -198,6 +199,9 @@ ul li.side a {
 	cursor: pointer;
 	padding: 0 60px 0 30px;
 	text-align: right;
+	line-height: 3.5;
+	list-style: none;
+
 }
 .back {
 	text-align: right;
