@@ -111,11 +111,25 @@ position: absolute;
 font-size: 8px;
 /* change font size to change label dimensions. Leave width/height below alone */
 top: 0.8%;
-left: 2.2%;
+left: 1.0%;
 position: fixed;
 cursor: pointer;
 }
 
+
+@media screen and (min-device-width: 0px) and (max-device-width: 768px) {
+	 div#navtoggler{  /* Sample burger icon to toggle menu state */
+z-index: 110;
+display: block;
+position: absolute;
+font-size: 8px;
+/* change font size to change label dimensions. Leave width/height below alone */
+top: 1.5%;
+left: 2.2%;
+position: fixed;
+cursor: pointer;
+}
+	}
 
 
 nav#ddfullscreenmenu{ /* Full screen nav menu */
@@ -144,43 +158,6 @@ border-image-repeat:initial;
 }
 
 
-
-div#navtoggler{  /* Sample burger icon to toggle menu state */
-	z-index: 110;
-	display: block;
-	position: absolute;
-	font-size: 8px;
-	/* change font size to change label dimensions. Leave width/height below alone */
-	top: 0.8%;
-	left: 2.2%;
-	position: fixed;
-	cursor: pointer;
-  }
-  
-
-  
-  nav#ddfullscreenmenu{ /* Full screen nav menu */
-	width: 100%;
-	height: 100%;
-	visibility: hidden;
-	-webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
-	-webkit-transform: scale(0.9);  /* initially scale down nav size */
-	transform: scale(0.9);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	position: fixed;
-	top: 0;
-	left: 0;
-	  z-index: 100;
-	opacity: 0;
-	overflow: hidden;
-	content-visibility: auto;
-
-   
-  }
   
   nav#ddfullscreenmenu.openmenu{ /* open menu class */
 	  visibility: visible;
