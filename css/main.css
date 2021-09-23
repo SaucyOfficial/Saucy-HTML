@@ -123,8 +123,8 @@ nav {
 }
 
 nav h3 {
-	padding: 0 60px 0 30px;
-	margin: 20px 0 30px;
+	padding: 0 60px 0 0px;
+	margin: 20px 0 0px;
 	text-align: right;
 	font-size: 2rem;
 	font-weight: 300;
@@ -137,13 +137,13 @@ nav.open {
 	padding-left: 25px;
 }
 .nav-level {
-	padding-top: 40px;
+	padding-top: 25px;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	background-image : url("https://media2.giphy.com/media/KGSkQ3OkIyrLE70Kej/giphy.gif?cid=ecf05e47l2nrxjb2s04n2028z7t08wrdp2ctymczepzyewd1&rid=giphy.gif&ct=g");
 	background-repeat : no-repeat;
-  background-size: 300% 100%;
+  background-size: 250% 100%;
   top: 0;
 	left: 0;
 	z-index: 1;
