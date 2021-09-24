@@ -141,9 +141,6 @@ nav.open {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image : url("https://media2.giphy.com/media/KGSkQ3OkIyrLE70Kej/giphy.gif?cid=ecf05e47l2nrxjb2s04n2028z7t08wrdp2ctymczepzyewd1&rid=giphy.gif&ct=g");
-	background-repeat : no-repeat;
-  background-size: 240% 100%;
   top: 0;
 	left: 0;
 	z-index: 1;
@@ -154,12 +151,12 @@ nav.open {
 	position: absolute;
 	width: 300px;
 	height: 100vh;
-	background-image : url("https://media2.giphy.com/media/KGSkQ3OkIyrLE70Kej/giphy.gif?cid=ecf05e47l2nrxjb2s04n2028z7t08wrdp2ctymczepzyewd1&rid=giphy.gif&ct=g");
 	left: 0;
 	transition: 0.3s;
 	transform: translate3d(100%, 0, 0);
 	top: 0;
-	border: 1px solid #fff;
+	border: 1px solid #2a2a2a;
+	background:#000;
 	border-top: none;
 	opacity: 0;
 	pointer-events: none;
@@ -168,6 +165,7 @@ nav.open {
 	transform: translate3d(40px, 0, 0);
 	opacity: 1;
 	pointer-events: visible;
+
 }
 
 .nav-overlay:before {
@@ -251,15 +249,15 @@ ul li.side a {
 .back.back-icon:before {
 	width: 8px;
 	height: 1px;
-	transform: rotate(45deg);
+	transform: rotate(-45deg);
 	top: 27px;
-	right: 58px;
+	left: 58px;
 }
 .back.back-icon:after {
 	width: 1px;
 	height: 8px;
-	transform: rotate(45deg);
-	right: 62px;
+	transform: rotate(-45deg);
+	left: 62px;
 	top: 29px;
 }
 .hamburger {
