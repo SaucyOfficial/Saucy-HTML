@@ -1727,7 +1727,7 @@ window.addEventListener('load', () => {
 
 
 
-<nav>
+<nav id="navigation">
   <script type="text/javascript">
     $(function(){
         $('#hamburger').click(function(){
@@ -1738,6 +1738,15 @@ window.addEventListener('load', () => {
     });
     </script>
 
+
+<script>
+      $('.back-icon1').click(function(){
+        document.getElementById('navigation').style.display = 'none';
+
+      });
+   
+  </script>
+
     <div id="stars"></div>
   <div class="nav-level">
     <div class="nav-header">      
@@ -1745,7 +1754,7 @@ window.addEventListener('load', () => {
         <img id="saucytext" src="/uploads/branding/saucy.png" height="50">
     </div>
     <ul class="side2">
-      <li class="side">
+      <li class="side">    <div class="back back-icon1"></div>
         <a href="#" class="back-icon">Shop</a>
         <div class="submenu nav-level">
           <div class="nav-header">

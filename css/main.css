@@ -261,6 +261,31 @@ ul li.side a {
 	left: 62px;
 	top: 29px;
 }
+
+.back.back-icon1 {
+	position: absolute;
+	bottom: 50px;
+
+}
+.back.back-icon1:before, .back.back-icon1:after {
+	content: '';
+	position: absolute;
+	background: #fff;
+}
+.back.back-icon1:before {
+	width: 8px;
+	height: 1px;
+	transform: rotate(-45deg);
+	top: 27px;
+	left: 58px;
+}
+.back.back-icon1:after {
+	width: 1px;
+	height: 8px;
+	transform: rotate(-45deg);
+	left: 62px;
+	top: 29px;
+}
 .hamburger {
 	float: left;
 	cursor: pointer;
@@ -279,7 +304,7 @@ transition-property: opacity, filter, translate3d;
 	border: 0;
 	margin: 0;
 	position: fixed;
-  top: 0;
+  top: -1px;
 	z-index: 10;
 	overflow: visible;
 }
