@@ -320,6 +320,7 @@ transition-property: opacity, filter, translate3d;
 	.hamburger {
 		
 		right: 10%;
+		top: -1px;
 	
 	}
 }
@@ -329,6 +330,7 @@ transition-property: opacity, filter, translate3d;
 	.hamburger {
 		
 		right: 7%;
+	top: -1px;
 	
 	}
 }
