@@ -1747,12 +1747,24 @@ window.addEventListener('load', () => {
    
   </script>
 
+<script>
+$('#hamburger').click(function(){
+	var img=$(this).data('img');
+  $(this).children('img').attr('src', img);
+});
+</script>
+
     <div id="stars"></div>
   <div class="nav-level">
     <div class="nav-header">      
 
-        <img id="saucytext" src="/uploads/branding/saucy.png" height="50">
-    </div>
+      <script>
+        function changepic(div) {
+	document.getElementById(div).src = "/uploads/branding/saucy.png";
+}
+</script>
+         <img id="saucytext" height="50">
+  </div>
     <ul class="side2">
       <li class="side">    <div class="back back-icon1"></div>
         <a href="#" class="back-icon">Shop</a>
@@ -1816,7 +1828,7 @@ window.addEventListener('load', () => {
     
 </nav>
 
-<div class="hamburger hamburger--squeeze" type="button" id="hamburger">
+<div class="hamburger hamburger--squeeze" type="button" id="hamburger" onclick="changepic('saucytext')">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
   </span>
