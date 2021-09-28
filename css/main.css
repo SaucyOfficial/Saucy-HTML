@@ -382,7 +382,7 @@ cursor: pointer;
 
 @media screen and (min-device-width: 0px) and (max-device-width: 768px) {
 	 div#navtoggler{  /* Sample burger icon to toggle menu state */
-z-index: 11;
+z-index: 12;
 display: block;
 position: absolute;
 font-size: 8px;
