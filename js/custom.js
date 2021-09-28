@@ -6,3 +6,4 @@
   body.addEventListener('load', function() {
     confetti.start(1200,50,150);
     });
+    
