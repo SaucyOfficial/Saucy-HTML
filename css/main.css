@@ -70,9 +70,11 @@ h1 {
 	z-index: 5;
 }	
 
-html {
+html, body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 100%;
 	}
 
 	#colorfuldots {
@@ -269,7 +271,7 @@ ul li.side a {
 
 .back.back-icon1 {
 	position: absolute;
-	bottom: 50px;
+	bottom: 150px;
 
 }
 .back.back-icon1:before, .back.back-icon1:after {
@@ -1126,3 +1128,4 @@ background-color: transparent;
 
 
   }
+
