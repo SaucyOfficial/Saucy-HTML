@@ -770,8 +770,8 @@ background-color: transparent;
 	.selectize-input,
 	.selectize-input {
 	  display: block;
-	  margin-left: 49%;
-	  padding-right: 49%;
+	  margin-left: 49.5%;
+	  margin-right: auto;
 	}
 	.selectize-control.multi .selectize-input.has-items {
 	  padding: 5px 9px 2px;
