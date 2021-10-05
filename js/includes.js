@@ -1390,7 +1390,7 @@ border-radius: 2.5px;
 <script defer src="/js/main.js"></script>
 
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.2.0/quicklink.umd.js"></script>
-<script defer>
+<script >
 window.addEventListener('load', () => {
   quicklink.listen();
 });
