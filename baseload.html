@@ -7,14 +7,7 @@
 </head>
 
 <script src="/js/custom.js"></script>
-<script>
-var content;
-$.get('/main.html', function(data){
-    content= data;
-    $('#result').prepend(content);
-});
-</script>
-
-<div id="result">
-</div>
+<script defer>$(function(){var a=$("[data-include]");$.each(a,function(){var a="/"+$(this).data("include")+".html";$(this).load(a)})}); </script>
+<div data-include="main"></div>
+  
 </html>
