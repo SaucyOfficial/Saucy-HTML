@@ -41,6 +41,7 @@ p
 }
 h2, li {
 	font-family: 'Roobert', sans-serif;
+	font-display: swap;
 	font-weight: 500;
 	font-size: 20px;
 
@@ -49,6 +50,7 @@ h2, li {
 
 h1 {
 	font-family: 'Roobert', sans-serif;
+	font-display: swap;
 	font-weight: 500;
 	font-size: 30px;
 
@@ -1120,4 +1122,3 @@ background-color: transparent;
 
 
   }
-
