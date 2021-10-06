@@ -12,6 +12,7 @@
 }
 
 
+
 #iframe1 {
 	height: 100vh;
 }
@@ -21,6 +22,7 @@
 	font-family: 'Futura';
 	src: url('/_includes/FuturaPT-Light.woff2');
 	font-display: swap;
+	content-visibility: auto;
 
 	
 }
@@ -29,6 +31,8 @@
 	font-family: "Roobert";
 	src: url("/_includes/Roobert.woff2");
 	font-display: swap;
+	content-visibility: auto;
+
 
 }
 
@@ -36,12 +40,17 @@ p
 
  {
 	font-family: 'Futura', sans-serif;
+	font-size: 20px;
+	content-visibility: auto;
+
 }
 h2, li {
 	font-family: 'Roobert', sans-serif;
 	font-display: swap;
 	font-weight: 500;
 	font-size: 20px;
+	content-visibility: auto;
+
 }
 
 
@@ -50,6 +59,8 @@ h1 {
 	font-display: swap;
 	font-weight: 500;
 	font-size: 30px;
+	content-visibility: auto;
+
 }
 
 
@@ -75,10 +86,12 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	
 	}
 
 	#colorfuldots {
 		border-image-repeat:initial;
+		
 
 	}
 	
