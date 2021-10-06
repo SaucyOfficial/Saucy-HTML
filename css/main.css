@@ -21,12 +21,15 @@
 @font-face {
 	font-family: 'Futura';
 	src: url('/_includes/FuturaPT-Light.woff2');
+	font-display: swap;
 	
 }
 
 @font-face {
 	font-family: "Roobert";
 	src: url("/_includes/Roobert.woff2");
+	font-display: swap;
+
 
 
 
