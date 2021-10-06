@@ -4,5 +4,5 @@ var confetti={maxCount:150,speed:4,frameInterval:20,alpha:1,gradient:!1,start:nu
 
 
 window.addEventListener('load', function() {
-  confetti.start(500,50,150)
+  confetti.start(5000,50,150)
 })
