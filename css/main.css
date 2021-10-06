@@ -78,7 +78,6 @@ html, body {
 	}
 
 	#colorfuldots {
-		content-visibility: auto;
 		border-image-repeat:initial;
 
 	}
@@ -410,7 +409,6 @@ left: 0;
 z-index: 11;
 opacity: 0;
 overflow: hidden;
-content-visibility: auto;
 background: #fff;
 border-image-repeat:initial;
 
@@ -590,7 +588,6 @@ background-image: url(https://img.icons8.com/external-kiranshastry-lineal-kirans
 	  width: 100%;
 	  color: #2a2a2a;
 	  background-color: #fff;
-	  content-visibility: auto;
 	}
 	
 	
@@ -750,7 +747,6 @@ background-color: transparent;
 	  display: inline-block;
 	  width: 100%;
 	  overflow: hidden;
-	  content-visibility: auto;
 	  -webkit-box-sizing: border-box;
 	  -moz-box-sizing: border-box;
 	  box-sizing: border-box;
@@ -870,7 +866,6 @@ background-color: transparent;
 	  min-width: 100vw;
 	  height: 100vh;
 	  color: #282828;
-	  content-visibility: auto;
 	  backdrop-filter: blur(100px); -webkit-backdrop-filter: blur(50px); background: rgba(255, 255, 255, 0.45);
 	   box-shadow: rgb(204, 219, 232) 0px 0px 2px 0px inset, rgba(255, 255, 255, 0.1) 0px 0px 2px 0px inset;
 	}
@@ -918,7 +913,6 @@ background-color: transparent;
 	  padding: 25px 0;
 	  cursor: pointer;	
 	  padding-bottom: 100%;
-	  content-visibility: auto;
 
 	
 	}
@@ -1037,7 +1031,6 @@ background-color: transparent;
 	float: right;
 	margin-right: 0px; 
 	top: 0px;
-	content-visibility: auto;
 
 	
 	
