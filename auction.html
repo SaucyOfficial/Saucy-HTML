@@ -5,11 +5,32 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="shortcut icon" href="/uploads/app/favicon.ico">
 </head>
-<div data-include="main"></div>
 
-<script src="/js/custom.js"></script>
-<script defer>$(function(){var a=$("[data-include]");$.each(a,function(){var a="/"+$(this).data("include")+".html";$(this).load(a)})}); </script>
-  
+<script>
+    fetch('./main.html')
+.then(function (data) {
+ return data.text();
+})
+.then(function (html) {
+ document.getElementById('content').innerHTML = html;
+ var scripts = document.getElementById("content").querySelectorAll("script");
+ for (var i = 0; i < scripts.length; i++) {
+   if (scripts[i].innerText) {
+     eval(scripts[i].innerText);
+   } else {
+     fetch(scripts[i].src).then(function (data) {
+       data.text().then(function (r) {
+         eval(r);
+       })
+     });
+
+   }
+   // To not repeat the element
+   scripts[i].parentNode.removeChild(scripts[i]);
+ }
+});
+</script>
+<div id="content"></div>
     <iframe id="embeds" src="https://www.ebid.net" frameborder="0"></iframe>
     <style>body{overflow: hidden;}</style>
 
