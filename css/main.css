@@ -12,12 +12,6 @@
 }
 
 
-
-#iframe1 {
-	height: 100vh;
-}
-
-
 @font-face {
 	font-family: 'Futura';
 	src: url('/_includes/FuturaPT-Light.woff2');
@@ -79,6 +73,7 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	content-visibility: auto;
 	}
 
 	#colorfuldots {
