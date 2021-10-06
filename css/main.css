@@ -77,7 +77,6 @@ html, body {
 	}
 
 	#colorfuldots {
-		content-visibility: auto;
 		border-image-repeat:initial;
 
 	}
@@ -409,7 +408,6 @@ left: 0;
 z-index: 11;
 opacity: 0;
 overflow: hidden;
-content-visibility: auto;
 background: #fff;
 border-image-repeat:initial;
 
@@ -749,6 +747,7 @@ background-color: transparent;
 	  display: inline-block;
 	  width: 100%;
 	  overflow: hidden;
+	  content-visibility: auto;
 	  -webkit-box-sizing: border-box;
 	  -moz-box-sizing: border-box;
 	  box-sizing: border-box;
@@ -1035,6 +1034,7 @@ background-color: transparent;
 	float: right;
 	margin-right: 0px; 
 	top: 0px;
+	content-visibility: auto;
 
 	
 	
