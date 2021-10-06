@@ -18,6 +18,21 @@
 }
 
 
+@font-face {
+	font-family: 'Futura';
+	src: url('/_includes/FuturaPT-Light.woff2');
+	content-visibility: auto;
+
+	
+}
+
+@font-face {
+	font-family: "Roobert";
+	src: url("/_includes/Roobert.woff2");
+	content-visibility: auto;
+
+
+}
 
 p
 
